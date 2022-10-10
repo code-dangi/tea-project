@@ -1,0 +1,134 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    /*position: relative; */
+}
+
+header {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;   
+    display: flex;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+    /*float: left; */
+}
+nav {
+    /*position: absolute; */
+    /*float: right;*/
+    color: seashell;
+}
+
+nav li {
+    text-decoration: underline;
+    display: inline-block;
+    margin-right: 10px;
+    /*width: 80px;*/
+}
+.missionContainer {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    background-image: url("../images/img-mission-background.jpg");
+    background-repeat: no-repeat; 
+    background-position-x: center;
+    background-size: 1200px 700px;
+}
+.missiontext {
+    background-color: black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    width: 100%;
+    position: absolute;
+    margin: 0 auto;
+}
+.monthTea {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 10px;
+}
+
+.monthTeaText {
+    color: seashell;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.square {
+    border: 1px solid green;
+}
+figure {
+    border: 1px solid white;
+    margin: 0;
+}
+.imgContainer {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    align-items: center;
+    border: 1px solid red;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.square figure img {
+    height: 200px;
+    width: 300px;
+    border: 1px solid yellow;
+}
+
+.locations {
+    height: 500px;
+    width: 100%;
+    background-image: url("../images/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid yellowgreen;
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.places {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid red; 
+    
+}
+.place {
+    width: 300px;
+    background-color: black;
+    margin: 0 40px;
+    flex-shrink: 2;
+    /*opacity: 1; */
+}
+.contact {
+    height: 200px;
+}
+
